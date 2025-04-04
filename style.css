@@ -625,7 +625,7 @@
   }
   #es-rc #es-rc-content .es-bottle__wrapper {
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: unset;
     gap: unset;
   }
@@ -640,7 +640,8 @@
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(1) {
     align-self: flex-start;
     width: 25%;
-    margin-right: -30px;
+    position: relative;
+    left: 8%;
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(1) .es-bottle__single-wrapper {
     width: 210px;
@@ -655,7 +656,8 @@
     align-self: flex-end;
     width: 25%;
     margin-left: -40px;
-    margin-bottom: -30px;
+    position: relative;
+    right: 15%;
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(3) .es-bottle__single-wrapper {
     width: 290px;
@@ -802,6 +804,7 @@
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(1) {
     margin-right: -25px;
+    position: static;
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(1) .es-bottle__single-wrapper {
     width: 260px;
@@ -809,6 +812,7 @@
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(3) {
     margin-left: -100px;
+    position: static;
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(3) .es-bottle__single-wrapper {
     width: 330px;
